@@ -20,6 +20,9 @@ const matcher = (searchParam, inputString, replaceString) => {
 
 const run = () => {
   const {FILE_PATH = './test_file.txt', SEARCH_PARAM = 'I', REPLACE_PARAM= 'we'} = process.env;
+  if(!FILE_PATH.match(/^.*\.txt$/)) {
+    throw new Error('Must be .txt file extension')
+  }
   const fullFilePath = path.resolve(__dirname, FILE_PATH)
   const inputString = fs.readFileSync(fullFilePath, {encoding:'utf8'})
   const output_data = matcher(SEARCH_PARAM, inputString, REPLACE_PARAM);
