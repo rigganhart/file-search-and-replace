@@ -3,7 +3,7 @@ A super simple find and replace all occurrences of a search param in a provided 
 
 Accepts the Parameters: `FILE_PATH`,`SEARCH_PARAM`, `REPLACE_PARAM` (has default values for each param)
 
-*CAUTION:* This program overwirtes the text file provided
+**CAUTION:** This program overwirtes the text file provided
 
 run with node from the command line:
 ```
