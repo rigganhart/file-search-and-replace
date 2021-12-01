@@ -7,7 +7,7 @@ Accepts the Parameters: `FILE_PATH`,`SEARCH_PARAM`, `REPLACE_PARAM` (has default
 
 run with node from the command line:
 ```
-$ FILE_PATH="../path/to/my/file" SEARCH_PARAM="$" REPLACE_PARAM="MORE $"
+$ FILE_PATH="../path/to/my/file" SEARCH_PARAM="$" REPLACE_PARAM="MORE $" node index.js
 ```
 
 
