@@ -3,7 +3,6 @@ const fs = require('fs')
 
 const matcher = (searchParam, inputString, replaceString) => {
   const escapedValues = searchParam.replace(/[\.\^\$\*\+\-\?\(\)\[\]\{\}\|\—\/]/g, '\\$&')
-  console.log('escapedValues:: ', escapedValues)
   const regex = new RegExp(escapedValues, 'g')
   const matchedArr = inputString.match(regex)
   if(matchedArr) {
