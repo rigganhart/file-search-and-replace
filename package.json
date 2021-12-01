@@ -1,0 +1,19 @@
+{
+  "name": "file-search-and-replace",
+  "version": "1.0.0",
+  "description": "find and replace all occurrences of a search param in a provided file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rigganhart/file-search-and-replace.git"
+  },
+  "author": "Riggan Hart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rigganhart/file-search-and-replace/issues"
+  },
+  "homepage": "https://github.com/rigganhart/file-search-and-replace#readme"
+}
