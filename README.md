@@ -6,15 +6,18 @@ Accepts the Parameters: `FILE_PATH`,`SEARCH_PARAM`, `REPLACE_PARAM` (has default
 *CAUTION:* This program overwirtes the text file provided
 
 run with node from the command line:
-`$ FILE_PATH="../path/to/my/file" SEARCH_PARAM="$" REPLACE_PARAM="MORE $"`
+```
+$ FILE_PATH="../path/to/my/file" SEARCH_PARAM="$" REPLACE_PARAM="MORE $"
+```
 
 
 Outputs info to command line:
-  output_data: {
-    file_overwrite: string,
-    replaced_count: number,
-    matched_count: number,
-    replaced_string: string
-  }
-
+```
+output_data: {
+  file_overwrite: string,
+  replaced_count: number,
+  matched_count: number,
+  replaced_string: string
+}
+```
 
